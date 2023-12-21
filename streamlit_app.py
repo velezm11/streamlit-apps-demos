@@ -1,8 +1,12 @@
 import streamlit as st
-st.set_page_config(
-    page_title='Energy Advisor',
-    initial_sidebar_state="expanded"
-)
+
+st.set_page_config(layout="wide")
+
+st.title("Introspective Chatbot")
+
+col1, col2, col3 = st.columns(3)
+
+
 if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
 
