@@ -51,6 +51,6 @@ st.sidebar.header("Sources")
 st.sidebar.header("Full Disclosure")
 ...
 
-expander = st.expander(Know about me")
+expander = st.expander("Know about me")
 expander.write(...)
 
